@@ -1,12 +1,5 @@
-const path = require('path');
-
 module.exports = {
-  mode: 'development',
-  entry: './src/index.js',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'docs'),
-  },
+  // ... your other config settings (entry, output, etc)
   module: {
     rules: [
       {
